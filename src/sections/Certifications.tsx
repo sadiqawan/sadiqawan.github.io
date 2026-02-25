@@ -1,7 +1,9 @@
 import { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { Award, Calendar, ExternalLink, Shield, Server, Cloud, Code, Network } from 'lucide-react';
+// After (remove Cloud)
+import { Award, Calendar, ExternalLink, Shield, Server, Code, Network } from 'lucide-react';
+// import { Award, Calendar, ExternalLink, Shield, Server, Cloud, Code, Network } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 gsap.registerPlugin(ScrollTrigger);
